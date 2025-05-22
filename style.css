@@ -38,6 +38,20 @@
     margin: 0;
 }
 
+.navbar {
+    background-color: darkslategray !important;
+}
+
+.btn-primary {
+    background-color: darkslategray !important;
+    border-color: darkslategray !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #20343a !important; /* slightly darker for hover */
+    border-color: #20343a !important;
+}
+
 @media (max-width: 768px) {
     .carousel-inner {
         width: 100vw;
