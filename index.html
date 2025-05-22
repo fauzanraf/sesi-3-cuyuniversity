@@ -11,19 +11,108 @@
 </head>
 
 <body>
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand">Navbar</a>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+    <div>
+        <!-- ini navbar -->
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">Navbar</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <!-- ini navbar end -->
+
+        <!-- ini produk saya -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="card col-12 col-md-6 col-lg-3">
+                    <div class="card-header">
+                        JASA PACAK KUCING
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Maincoon terbaik handal</h5>
+                        <img src="gambar1.png" class="img-thumbnail w-50" alt="...">
+                        <p class="card-text">Jasa pacak kucing terbaik se-Indonesia antero jagat raya dunia akhirat</p>
+                        <a href="#" class="btn btn-primary">Hubungi sekarang</a>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-3">
+                    <div class="card-header">
+                        JASA LAS KARBIT
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Mang karbit memang yang terbaik</h5>
+                        <img src="gambar2.png" class="img-thumbnail" alt="...">
+                        <p class="card-text">Harga berani jamin berani ngadu sama mang listrik pokoknya jos margondos.
+                        </p>
+                        <a href="#" class="btn btn-primary">Hubungi sekarang</a>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-3">
+                    <div class="card-header">
+                        JASA SERVIS PAGER
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Jasa servis pager dengan layanan 24/7</h5>
+                        <img src="gambar3.png" class="img-thumbnail w-100" alt="...">
+                        <p class="card-text">Kami merupakan barudak kawanan tim hore dari dunia perpageran</p>
+                        <a href="#" class="btn btn-primary">Hubungi sekarang</a>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 col-lg-3">
+                    <div class="card-header">
+                        JASA SERVIS AC
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Jasa servis AC dengan layanan 24/7</h5>
+                        <img src="gambar4.png" class="img-thumbnail w-50" alt="...">
+                        <p class="card-text">Kami merupakan barudak kawanan tim hore dari dunia AC</p>
+                        <a href="#" class="btn btn-primary">Hubungi sekarang</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-    <button class="tanpa-bootstrap">hello dunia</button>
-    <button class="btn btn-primary">HELLO BOOTSTRAP</button>
+        <!-- ini produk saya end -->
+        <!-- ini adalah carousel -->
+        <div class="container my-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="gambar1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gambar2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="gambar3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- ini adalah carousel end -->
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
 </body>
 
